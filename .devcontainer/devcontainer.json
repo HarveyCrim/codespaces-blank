@@ -1,5 +1,5 @@
 {
   "name": "My Codespace",
   "image": "python:3.11-slim",
-  "onCreateCommand": "sh -c 'apt-get update && apt-get install -y curl unzip groff less ca-certificates && bash .devcontainer/install-aws.sh'"
+  "onCreateCommand": "sh -c 'apt-get update && apt-get install -y git gh curl unzip groff less ca-certificates && bash .devcontainer/install-aws.sh'"
 }
